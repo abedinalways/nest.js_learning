@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Environment variables (ডাটাবেস ক্রেডেনশিয়াল — কখনো commit করবেন না)
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# OS / Editor
+.DS_Store
+*.log
